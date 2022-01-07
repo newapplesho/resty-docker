@@ -1,4 +1,4 @@
-FROM openresty/openresty:1.15.8.2-2-centos
+FROM openresty/openresty:1.19.9.1-4-centos7
 
 RUN opm get \
       #SkyLothar/lua-resty-jwt \ 
